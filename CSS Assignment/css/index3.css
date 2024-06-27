@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(216, 216, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background-color: white;
+    width: 290px;
+    height: 370px;
+    margin: 150px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    border-radius: 20px;
+    width: 250px;
+    top: 14px;
+    left: 20px;
+}
+#Learning{
+    background-color: rgb(216, 216, 36);
+    position: absolute;
+    padding: 5px;
+    font-size: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 2px;
+    top: 170px;
+    left: 20px;
+}
+#Published{
+    background-color: none;
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+#HTML{
+    position: absolute;
+    top: 216px;
+    left: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(216, 216, 36);
+}
+#para{
+    width: 259px;
+    color: rgb(73, 69, 69);
+    font-size: 11px;
+    line-height: 19px;
+    position: absolute;
+    top: 240px;
+    left: 19px;
+}
+#user{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 310px;
+    left: 19px;
+    border-radius: 50%;
+}
+#name{
+    font-size: 8px;
+    font-weight: bold;
+    position: absolute;
+    top: 327px;
+    left: 63px;
+}

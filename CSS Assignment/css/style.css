@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+.main-container{
+    height: 375px;
+    width: 360px;
+    background-color: white;
+    margin: 150px auto;
+    position: relative;
+    border-radius: 5%;
+}
+#image-one{
+    display: inline-flex;
+    width: 360px;
+    height: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#image-two{
+    width: 95px;
+    height: 95px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    position: absolute;
+    top: 93px;
+    left: 130px;
+}
+#span{
+    position: absolute;
+    top: 199px;
+    left: 113px;
+    font-weight: bold;
+}
+#span-2{
+    position: absolute;
+    top: 201px;
+    left: 240px;
+    font-size: 15px;
+}
+#country{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+}
+.last{
+    position: absolute;
+    top: 275px;
+    width: 360px;
+    border-top: 0.3px solid black; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#firstk{
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 25px;
+    left: 50px;
+}
+#secondk{
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 25px;
+    left: 155px;
+}
+#thirdk{
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 25px;
+    left: 260px;
+}
+#followfollow{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    top: 50px;
+    left: 45px;
+}
+#like{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    top: 50px;
+    left: 160px;
+}
+#pics{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    top: 50px;
+    left: 265px;
+}
